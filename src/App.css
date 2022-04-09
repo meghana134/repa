@@ -1,0 +1,331 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo{
+  /* position: fixed; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 15px;
+  margin-top: 12px;
+  z-index: 3;
+  
+  
+}
+.logo img{
+  height: 120px;
+  width: 106px;
+}
+
+/* SEARCH CSS */
+  .search input[type=text]{
+    width:700px;
+    height:45px;
+    border-radius:25px;
+    border: none;
+    border-color: white;
+    /* position: fixed; */
+    /* margin-left: 56px; */
+    
+}
+.input_searchbutton{
+  margin-left: -47px;
+}
+      
+.search{
+   
+    margin:7px;
+    
+    
+  border-color: white;
+ 
+  margin-left: 295px;
+  margin-top: -542px;
+  z-index: 8;
+  /* position: fixed; */
+  position: absolute;
+}
+
+/* LOGIN BUTTON CSS */
+.button {
+  padding: 5px 5px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  height: 45px;
+  width: 156px;
+  background-color: #1063de;
+  border: 1px solid white;
+  /* border: none; */
+  border-radius: 29px;
+  margin-top: -18px;
+  /* box-shadow: 0 5px #999; */
+}
+.login{
+  margin-left: 750px;
+  margin-top: -38px;
+}
+
+/* SERVICES CSS */
+.service{
+  height: 200px;
+  width: 100%;
+  background-color: white;
+}
+.Phone img{
+  height: 100px;
+  width: 100px;
+  margin-left: 423px;
+  margin-top: 14px;
+}
+.car img{
+  height: 100px;
+  width: 100px;
+  margin-left: 623px;
+  margin-top: -127px;
+
+}
+
+/* LAUNCHES CSS */
+.conta{
+  /* background-color: red; */
+  height: 780px;
+  width: 100%;
+  background-color: rgb(229, 228, 226);
+  margin-top: -14px;
+  overflow: hidden;
+  /* margin-left: 5px; */
+}
+.conta h1{
+  color: rgb(15, 15, 15);
+  margin-bottom: 23px;
+  margin-left: 3px;
+  
+}
+.one{
+  /* margin-left: 90px; */
+  padding-left: 108px;
+}
+.two{
+  margin-left: 426px;
+  margin-top: -225px;
+}
+.three{
+  margin-top: -24px;
+  margin-left: 107px;
+}
+.four{
+  margin-left: 426px;
+  margin-top: -226px;
+}
+.ill{
+  margin-left: 819px;
+  margin-top: -295px;
+  height: 500px;
+  width: 500px;
+}
+
+/* CHOOSE CSS */
+.choose{
+  width: 100%;
+  height: 360px;
+  background-color: rgb(249, 244, 244);
+  overflow: hidden;
+}
+.choose .c{
+  margin-left: 74px;
+  /* margin-top:; */
+  padding-top: 12px;
+}
+.high{
+  display: flex;
+  flex-direction: row;
+  margin-right: 9px;
+  /* padding: 25px 50px 75px 0px ; */
+  /* margin-right: 54px; */
+  
+  
+}
+
+/* WORJ CSS */
+.work{
+  height: 460px;
+  width: 100%;
+  background-color: rgb(229, 228, 226);
+  /* margin-left: 34px; */
+  overflow: hidden;
+}
+.heading{
+  margin-left: 44px;
+}
+.step1{
+  height: 300px;
+  width: 250px;
+  margin-top: 60px;
+  
+  
+}
+
+.step1 p,h4{
+  
+  text-align: center;
+  padding: 2px;
+
+}
+.steps{
+  display: flex;
+  flex-direction: row;
+}
+.step2{
+  margin-left: 63px;
+  margin-top: 60px;
+  padding-left:125px ;
+}
+.step2 h4,p{
+  text-align: center;
+}
+.step3{
+  margin-left: 203px;
+  margin-top: 60px;
+}
+.step3 h4,p{
+  text-align: center;
+}
+
+/* CONTACT CSS */
+.white{
+  height: 300px;
+  width: 100%;
+  background-color: rgb(245, 243, 243);
+  padding-top: 40px;
+  padding-bottom: 78px;
+}
+.blue{
+  height: 250px;
+  width: 100%;
+  background-color: #346abb;
+  
+}
+.about{
+  height: 60px;
+  width: 90px;
+  /* background-color: red; */
+  margin-left: 86px;
+  /* margin-top: 4px; */
+  color: white;
+
+}
+.about img{
+  height: 50px;
+  width: 90px;
+  margin-top: 4px;
+}
+.pages p{
+  color:  white;
+  
+}
+.number{
+  height: 100px;
+  /* width: 100px; */
+  /* background-color: #282c34; */
+  margin-left: 956px;
+  /* margin-top: -45px; */
+
+}
+.number h4{
+  color: white;
+  margin-top: -156px;
+  /* padding-top: -45px; */
+}
+.number .ph{
+  margin-top: 23px;
+  color: white;
+  margin-left: 54px;
+}
+.number p{
+  color: white;
+  margin-top: -26px;
+  
+  
+}
+.email .em{
+  color: white;
+  margin-left: 54px;
+
+}
+.email p{
+  margin-left: 17px;
+}
+
+/* FOOTER CSS */
+.footer{
+  height: 70px;
+  width: 100%;
+  /* background-color: red; */
+  overflow: hidden;
+
+}
+.footer .ph-f{
+  margin-top: 7px;
+  margin-left:22px ;
+  color: rgb(86, 146, 235);
+  /* padding-left: 34px; */
+}
+.footer  p{
+  margin-top: -23px;
+  margin-right: 1030px;
+}
+.em-f{
+  margin-top: -86px;
+  margin-left: 200px;
+  color: rgb(86, 146, 235);
+}
+.email-f p{
+  margin-top: -66px;
+  margin-left: 236px;
+  /* font-size: 78px; */
+}
+.sicons-f {
+  margin-top: -60px;
+  margin-left: 996px;
+  color: #4267B2;
+  /* padding-right: 23px; */
+}
+a.youtube {
+  color: #eb3223;
+  margin-left: 4px;
+  ;
+}
+
+a.facebook {
+  color: #4968ad;
+  margin-left: 4px;
+
+}
+
+a.twitter {
+  color: #49a1eb;
+  margin-left: 4px;
+}
+
+a.instagram {
+  color: rgb(165, 30, 30);
+  margin-left: 4px;
+}
+a.linkedin{
+  color: #1155ba;
+  margin-left: 4px;
+}
+/* LOCATION DROP DOWN */
+.location{
+  margin-left: -909px;
+  width: 150px;
+  margin-top: -40px;
+  
+
+}
