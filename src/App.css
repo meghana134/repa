@@ -47,10 +47,16 @@
   z-index: 8;
   /* position: fixed; */
   position: absolute;
+  align-items: center;
 }
-
+.searchp p{
+  margin: 12px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
 /* LOGIN BUTTON CSS */
-.button {
+.loginBtn {
   padding: 5px 5px;
   font-size: 14px;
   text-align: center;

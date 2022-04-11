@@ -1,5 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import { Link} from 'react-router-dom';
+import Button from "@mui/material/Button";
 
 import image1 from './../assets/images/1.jpg';
 import image2 from './../assets/images/2.jpg';
@@ -9,7 +11,7 @@ import Location from './Location';
 import {useNavigate} from "react-router-dom"
 
 const CarouselContainer = () => {
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
   return (
     <>
     <Carousel fade={true} pause={false}>
@@ -54,8 +56,12 @@ const CarouselContainer = () => {
     <div className='search'>
     <Search/>
     <div className='login'>
-    <button className='button' >Login/SignUp</button>
+    {/* <button className='button' component={Link} to="/log" >Login/SignUp</button> */}
     {/* <button className='button' onClick={()=>{navigate.push("./log")}}>Login/SignUp</button> */}
+    <Button component={Link} to="/Login" variant="outlined" className="loginBtn" style={{backgroundColor:"  #1063de", border:"1px solid white", height:"45px",
+  width: "156px", color:"white", borderRadius:" 29px"}}>
+                Login/ signUp
+              </Button>
     <div className='location'>
     <Location/>
     </div>
